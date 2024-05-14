@@ -1,0 +1,93 @@
+
+.butn{
+  color: aliceblue;
+background: linear-gradient(90deg, #38B6FF 0%, #0088D7 100%);;  
+  border: none;
+  width: 150px !important;
+  height: 40px;
+  border-radius: 6px;
+}
+.butn:hover{
+    background-color: #5d75ff;
+    color: #fff;
+    scale: 1;
+    border: 2px double white;
+    box-shadow: -7px 6px 3px 0px #f5f5f1;
+    font-weight: 700;
+}
+.bttn{
+    width: 150px !important;
+    height: 40px;
+     border-radius: 6px;
+     border: 1px solid #9E9E9E
+}
+.bttn:hover{
+    background-color:#0088D7;
+    color: #fff;
+    scale: 1;
+    border: 2px double white;
+    box-shadow: -7px 6px 3px 0px #f5f5f1;
+    font-weight: 700;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mob img {
+  
+    animation: mob-img-animation  5s ease-out forwards;
+
+
+}
+
+  .logo {
+    margin-right: auto;
+    
+  }
+  
+  .end {
+    margin-left: auto;
+  }
+.clor{
+    color: #2FAEF8;
+
+}
+.font{
+font-weight: bolder;
+}
+  
+.color{
+    background: linear-gradient(90deg, rgba(56, 182, 255, 0.05) 0%, rgba(0, 136, 215, 0.05) 100%);
+
+}
+footer{
+    width: Fixed (1,440px)px;
+height: Fixed (400px)px;
+top: 2265px;
+padding: 56px 80px 32px 80px;
+gap: 0px;
+border-radius: 24px 24px 0px 0px;
+opacity: 0px;
+
+}
+.car:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 0px 50px 3px rgba(92, 152, 231, 0.3);
+}
+@keyframes mob-img-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+ 
